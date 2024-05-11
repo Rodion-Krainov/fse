@@ -6,3 +6,30 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Ignore CMake and Make build files
+cmake-build*/
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+.cmake/
+
+# Ignore CLion specific files
+.idea/
+*.iml
+
+# Ignore object files, archives, and executables
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# Ignore other files that are generated during build
+*.log
+*.tmp
+
+# Ignore specific files or directories
+# specific_file.txt
+# specific_directory/
